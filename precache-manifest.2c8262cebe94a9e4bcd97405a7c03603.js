@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "098ae96034d611bd54d2882abdcc1528",
+    "revision": "732dbd03648444fc4af07147f2997d5e",
     "url": "/hampi/index.html"
   },
   {
-    "revision": "49b75273e8f4473aaa46",
-    "url": "/hampi/static/css/main.41194154.chunk.css"
+    "revision": "b98ba26004362c1b8cdc",
+    "url": "/hampi/static/css/main.85913fbe.chunk.css"
   },
   {
-    "revision": "637c31b2adb78a9bf867",
-    "url": "/hampi/static/js/2.f99eecc5.chunk.js"
+    "revision": "106ba0e89594852e25e0",
+    "url": "/hampi/static/js/2.06488693.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/hampi/static/js/2.f99eecc5.chunk.js.LICENSE.txt"
+    "url": "/hampi/static/js/2.06488693.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "49b75273e8f4473aaa46",
-    "url": "/hampi/static/js/main.9fcf7a65.chunk.js"
+    "revision": "b98ba26004362c1b8cdc",
+    "url": "/hampi/static/js/main.76bbe01a.chunk.js"
   },
   {
     "revision": "0cec5883d4e0a2d9c4af",
