@@ -1,0 +1,46 @@
+.pago-content{
+    width: 14em;
+     margin-left: 6px;
+     margin-right: 6px;
+     margin-top: 6px;
+     margin-bottom: 6px;
+     background-color: rgb(255, 255, 255);
+     padding: 1.5em;
+     border: 1px solid rgb(158, 225, 228);
+     &-box{
+         padding: 1em;
+         width: 12em;
+         background-color: rgb(232, 248, 255);
+         &:nth-child(odd){
+             background-color: rgba(235, 255, 212, 0.808);
+         }
+     }
+     h1{
+         color: rgb(110, 167, 177);
+         text-align: center;
+         font-size: 1.2em;
+         padding-bottom: 16px;;
+     }
+     text-align: center;
+     &-botton{
+         margin-top: 1.3em;
+         padding: 15px;
+         font-size: 1.1em;
+         background: transparent;
+         border: 2px solid rgb(23, 185, 23);
+         color: rgb(23, 185, 23);
+         cursor: pointer;
+         transition: 400ms ease-in;
+
+        &:hover{
+            background-color: rgb(23, 185, 23);
+            color: white;
+        }
+     }
+     .ic{
+        font-size: 1.8em;
+        color: rgb(24, 75, 85);
+        margin-bottom: 8px;
+    }
+  
+ }

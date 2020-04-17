@@ -1,0 +1,134 @@
+
+.barra-menu{
+    z-index: 20;
+    position: fixed;
+    width: 100%;
+    background-color: hsl(225, 20%, 16%);
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.575);
+    nav {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    #{&}-logo{
+        flex: 1;
+        padding: 1em;
+        width: 9em;
+        a{
+            color: white;
+            font-size: 30px;
+            text-decoration: none;
+            transition: font-size 400ms ease-in;
+        }
+        margin-left: 50px;
+    } 
+    #{&}-nav{
+        flex:1;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style: none;
+        margin-right: 20px;
+        &-link-router:nth-child(odd){
+            flex: 1;
+            text-decoration: none;
+            li{
+                a{
+                    border: 1.5px dashed  rgb(122, 15, 108);
+                    text-decoration: none;
+                    color: white;
+                    padding: 5px 20px 5px 20px;
+                    transition: 500ms;
+                    border-radius: 0 15px;
+                    &:hover{
+                        background-color: rgb(122, 15, 108);
+                    }
+                }            
+            }
+           
+        } &-link-router:nth-child(even){
+            flex: 1;
+            text-decoration: none;
+            li{
+                a{
+                    border: 1.5px dashed  rgb(36, 125, 184);
+                    text-decoration: none;
+                    color: white;
+                    padding: 5px 20px 5px 20px;
+                    transition: 500ms;
+                    border-radius:  15px 0;
+                    &:hover{
+                        background-color: rgb(36, 125, 184);
+                    }
+                }            
+            }
+           
+        }
+        
+    } 
+    &.scrolled{
+        animation-name: scrolled-animation;
+        animation-duration: 500ms;
+        background-color: hsla(250, 14%, 17%, 0.973);
+        font-size: 13px !important;
+        height: auto;
+        .barra-menu-logo{
+            a{
+                color: rgb(248, 248, 248);
+                font-size: 1.6em;
+                text-decoration: none;
+            }
+        }
+        .boton-hamburguesa{
+                &-linea{
+                    border-radius: 10px;
+                    height: 2px;
+                    width: 2.6em ;
+                    background: rgb(255, 255, 255);
+                }
+
+        }
+    }
+   
+}
+
+@keyframes scrolled-animation {
+    0%{
+        opacity: 0%;
+        top: -10px;
+    }
+    100%{
+        left: 0px;
+        top: 0;
+    }
+}
+
+@media (max-width: 1075px ){
+    .barra-menu-nav{
+        display: none !important;
+    }
+    .barra-menu-logo{
+       margin-left: 55% !important;
+    } 
+}
+
+@media (max-width: 500px ){
+    .barra-menu-logo{
+       margin-left: 45% !important;
+    } 
+}
+
+@media (min-width: 1075px){
+    .boton-hamburguesa{
+        display: none !important;
+    }
+    
+}
+
+.icono-compras{
+    padding: 0px 12px 0px 9px;
+}
+
+.logoTipo{
+    width: 4em;
+}

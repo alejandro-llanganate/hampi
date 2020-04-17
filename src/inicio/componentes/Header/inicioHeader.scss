@@ -1,0 +1,100 @@
+.inicio-header{
+    z-index: 10;
+    position: relative;
+    top: 90px;
+    background: linear-gradient(0deg,rgb(14, 151, 185), rgb(23, 97, 139));
+    border-bottom: 0.5em solid rgb(214, 237, 255);
+
+    &-fondo{
+        display: none;
+        position: relative;
+        background: linear-gradient(0deg,rgb(14, 151, 185), rgb(23, 97, 139));
+         width: 100%;
+           height: 40vh;  
+     border-bottom: 0.5em solid rgb(214, 237, 255);
+    }
+    
+   &-contenido{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+
+       &-mujerMascarilla{
+        padding: 1.5em 0.5em 0 0.5em;
+         height: 25em;
+        }
+        &-descripcion{
+            margin-top: 2.3em;
+            padding: 1.5em 2.5em 1.5em 2.5em;
+            color: white;
+            background-color: rgb(5, 56, 80);
+            border-top: 5px solid rgb(255, 201, 101);
+       //   width: 600px;
+            height: 18em;         
+            max-width:700px;
+            border-radius: 0 0 40px 40px;
+            line-height: 2.2em;
+            h1{
+                text-align: center;
+                margin-top: 20px;
+            }
+            p{
+                margin-top: 6px;
+            }
+        }
+        @media (max-width: 1183px){
+            &-descripcion{
+                margin-top: 0em;
+                padding: 1.5em 2.5em 1.5em 2.5em;
+                color: white;
+                border-top: 0;
+                border-left: 7px solid rgb(255, 201, 101);
+                height: 20em;         
+                max-width:80%;
+                border-radius: 0 0px 0px 50px;
+            }
+           
+        }
+        @media (max-width: 793px){
+            &-descripcion{
+                margin-top: 0em;
+                padding: 1.5em 2.5em 1.5em 2.5em;
+                color: white;
+                border-top: 0;
+                border-left: 7px solid rgb(255, 201, 101);
+                height: 25em;         
+                max-width:80%;
+                border-radius: 0 0px 0px 50px;
+            }
+           
+        }
+        @media (max-width: 583px){
+            &-descripcion{
+                margin-top: 0em;
+                padding: 1.5em 2.5em 1.5em 2.5em;
+                color: white;
+                border-top: 0;
+                border-left: 7px solid rgb(255, 201, 101);
+                height: 30em;         
+                max-width:80%;
+                border-radius: 0 0px 0px 50px;
+            }
+           
+        }
+   }
+   margin-bottom: 70px;
+}
+
+@media (max-width: 1183px){
+    .inicio-header{
+        z-index: 10;
+        position: relative;
+        top: 70px;
+        background: transparent;
+        padding-bottom: 1em;
+        border-bottom: 0.5em solid rgba(62, 89, 139, 0.349);
+  
+    }
+
+}
+

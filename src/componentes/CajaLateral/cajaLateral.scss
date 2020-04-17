@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-lateral{
+    padding: 0;
+   // box-shadow: 0.4em 0px 10px rgba(60, 65, 68, 0.877);
+    position: fixed;
+    height: 100vh;
+    background: linear-gradient(40deg, rgb(21, 24, 39), rgb(36, 85, 94));
+    width: 70%;
+    max-width: 500px;
+    z-index: 300;
+    ul {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        li:nth-child(odd) {
+            padding: 20px 0 20px 0;
+            a{
+                background: rgb(240, 238, 239);
+                border-radius: 0 10px;
+                padding: 5px 35px 5px 35px;
+                font-size: 1.4em;
+                color: rgb(22, 24, 46);
+                text-decoration: none;
+            }
+        }
+        li:nth-child(even) {
+            padding: 20px 0 20px 0;
+            text-align: center;
+            width: 400px;
+            a{
+                background: rgb(48, 72, 104);
+                border-radius: 10px 0;
+                padding: 5px 35px 5px 35px;
+                font-size: 1.4em;
+                color: white;
+                text-decoration: none;
+            }
+        }
+        li:nth-child(1) {
+            a{
+                padding: 5px 78px 5px 78px;
+            }
+        }
+        li{
+            a:hover{
+                background: rgb(177, 129, 57);
+            }
+        }
+    }
+    margin: 0;
+    padding: 0;
+    .botonCerrar{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        display: flex;        
+        margin-left: 88%;
+        margin-right: auto;
+        justify-content: flex-end;
+        position: absolute;
+        background: transparent;
+        border: none;
+        color: rgba(255, 255, 255, 0.658);
+        font-family: 'Audiowide', cursive;
+        font-size: 1.6em;
+        margin-top: 13px;
+        outline: none;
+        cursor: pointer;
+        &:hover{
+            color: rgb(255, 255, 255);
+        }
+    }
+
+    transform: translateX(-100%);
+    transition: transform 500ms ease-out;
+
+    &.open{
+        transform: translateX(0);
+    }
+}
+

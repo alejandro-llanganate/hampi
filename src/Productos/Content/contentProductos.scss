@@ -1,0 +1,23 @@
+.productos-content{
+    margin-top: 40px;
+    display: flex;
+    margin-right: 3%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    &-items{
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+       width: 50em;
+       margin-bottom: 45px;
+    }
+    &-filtro{
+        margin-left: 15px;
+    }
+    &-pago{
+        margin-bottom: 2em;
+    }
+    
+
+}
+

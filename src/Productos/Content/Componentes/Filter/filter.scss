@@ -1,0 +1,21 @@
+.filter-container{
+    padding: 2em;
+    border: 1px solid rgb(158, 225, 228);
+    width: 250px;
+    margin: 10px;
+    line-height: 1.8em;
+    margin-bottom: 3em;
+    color: rgb(82, 92, 107);
+    h2{
+        color: rgb(110, 167, 177);
+        padding: 10px;
+        border-bottom: 1px solid rgb(112, 182, 194);
+    }
+    p{
+        margin-top: 6px;
+        margin-bottom: 3px;
+    }
+    form{
+        margin-left: 18px;
+    }
+}

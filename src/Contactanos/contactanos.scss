@@ -1,0 +1,68 @@
+
+.contacto-container{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 115px;
+    flex-wrap: wrap-reverse;
+    &-cajaContainer{
+        
+        width: 289px;
+        padding: 1em;
+        h1{
+            font-size: 1.9em;
+            padding-bottom: 8px;
+            border-bottom: 1px solid rgb(248, 216, 32);
+            color: rgb(70, 68, 90);
+        }
+        &-box{
+            margin-top: 1em;
+            border: 1px solid rgb(168, 236, 240);
+            margin-bottom: 15px;
+            border-radius: 15px 0;
+            a{
+                text-decoration: none;
+                transition: 300ms ease-in;
+                &:hover{
+                    font-size: 1.2em;
+                }
+            }
+            i{
+                background-color: rgb(54, 165, 54);
+                padding: 17px;
+                color: white;
+                border-radius: 15px 0px 0px 0px;
+                &.facebook{
+                    background-color: rgb(43, 20, 124);
+                }
+                &.instagram{
+                    background: linear-gradient(20deg, rgb(224, 22, 123), rgb(9, 129, 209));
+                }
+                &.twitter{
+                    background-color: rgb(127, 176, 216);
+                }
+                &.mail{
+                    background-color: red;
+                }
+            }
+            label{
+                padding: 15px;
+                width: 90px;
+                color: rgb(90, 98, 100);
+                cursor: pointer;
+
+
+            }
+        }
+    }
+
+}
+
+.local{
+    line-height: 2.2em;
+}
+
+iframe{
+
+    max-width: 100%;
+}
