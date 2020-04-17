@@ -53,9 +53,10 @@ class App extends Component{
         <CajaLateral cerrarClic = {this.botonCerrarSlideMenu} clicEstado = {this.state.cajaLateralAbierta}/>
         {fondoPage} 
           <Switch>
+            <Route path="/hampi/" exact component={Inicio} />
             <Route path="/" exact component={Inicio} />
-            <Route path="/Productos" component={Productos} />
-            <Route path="/Contáctanos" component={Contactanos} />
+            <Route path="/hampi/Productos" component={Productos} />
+            <Route path="/hampi/Contáctanos" component={Contactanos} />
           </Switch>
         <Footer />
       </div>

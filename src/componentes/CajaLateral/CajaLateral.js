@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './cajaLateral.scss'
 
 const CajaLateral = props => {
@@ -10,9 +11,15 @@ const CajaLateral = props => {
         <nav className={claseCaja}>
             <button onClick={props.cerrarClic} className="botonCerrar"> X </button>
             <ul>
-                <li><a href="/"> Inicio </a></li>
-                <li><a href="/Productos">    <i class="fas fa-cart-plus icono-compras"></i>     Productos </a></li>
-                <li><a href="/Contáctanos"> Contáctanos </a></li>
+                    <Link className="link-slide"  to="/hampi/" style={{textDecoration: "none"}}> 
+                        <li><a href="/"> Inicio </a></li>
+                    </Link>
+                    <Link className="link-slide" to="/hampi/Productos" style={{textDecoration: "none"}}> 
+                        <li><a href="/">    Productos </a></li>
+                    </Link>
+                    <Link className="link-slide" to="/hampi/Contáctanos" style={{textDecoration: "none"}}> 
+                          <li><a href="/"> Contáctanos </a></li>
+                    </Link>
             </ul>
             
         </nav>

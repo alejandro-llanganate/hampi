@@ -17,15 +17,15 @@ const BarraMenu = props => {
             <div className="boton-hamburguesa">
                 <BotonHambuergesa meClic={props.botonClic}/>
             </div>
-            <div className="barra-menu-logo"> <a href="/"> <img className="logoTipo" src={Logo} alt="Logotipo de HampiMED"/></a></div>
+            <div className="barra-menu-logo"> <Link to="/hampi/" ><img className="logoTipo" src={Logo} alt="Logotipo de HampiMED"/></Link></div>
                 <ul className="barra-menu-nav" >
-                    <Link to="/" className="barra-menu-nav-link-router"> 
+                    <Link to="/hampi/" className="barra-menu-nav-link-router"> 
                         <li><a href="/"> Inicio </a></li>
                     </Link>
-                    <Link to="/Productos" className="barra-menu-nav-link-router"> 
+                    <Link to="/hampi/Productos" className="barra-menu-nav-link-router"> 
                         <li><a href="/">   <i class="fas fa-cart-plus icono-compras"></i>  Productos </a></li>
                     </Link>
-                    <Link to="/Contáctanos" className="barra-menu-nav-link-router"> 
+                    <Link to="/hampi/Contáctanos" className="barra-menu-nav-link-router"> 
                           <li><a href="/"> Contáctanos </a></li>
                     </Link>
 

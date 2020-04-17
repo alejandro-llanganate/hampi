@@ -22,7 +22,8 @@
         align-items: center;
         list-style: none;
         padding: 0;
-        li:nth-child(odd) {
+        .link-slide:nth-child(odd){
+        li {
             padding: 20px 0 20px 0;
             a{
                 background: rgb(240, 238, 239);
@@ -33,10 +34,12 @@
                 text-decoration: none;
             }
         }
-        li:nth-child(even) {
+    }  
+    .link-slide:nth-child(even){
+        li {
             padding: 20px 0 20px 0;
             text-align: center;
-            width: 400px;
+           // width: 400px;
             a{
                 background: rgb(48, 72, 104);
                 border-radius: 10px 0;
@@ -46,16 +49,13 @@
                 text-decoration: none;
             }
         }
-        li:nth-child(1) {
-            a{
-                padding: 5px 78px 5px 78px;
-            }
-        }
-        li{
+    }
+        
+        link-slide{li{
             a:hover{
                 background: rgb(177, 129, 57);
             }
-        }
+        }}
     }
     margin: 0;
     padding: 0;

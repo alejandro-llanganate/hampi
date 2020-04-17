@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './footer.scss'
 import  DataSociaMedia from '../../DataSociaMedia.js'
 
@@ -8,9 +9,15 @@ const Footer = props => (
             <section className="footer-info-fila1-page bloque">
                 <h3> Bienvenido a Hampi </h3>
                 <ul>
-                    <li><a href="/">Inicio</a></li>
-                    <li><a href="/Productos">Productos</a></li>
-                    <li><a href="/Contáctanos">Contáctanos</a></li>
+                    <Link to="/hampi/" style={{textDecoration: "none"}}> 
+                        <li><a href="/"> Inicio </a></li>
+                    </Link>
+                    <Link to="/hampi/Productos" style={{textDecoration: "none"}}> 
+                        <li><a href="/">  Productos </a></li>
+                    </Link>
+                    <Link to="/hampi/Contáctanos" style={{textDecoration: "none"}}> 
+                          <li><a href="/"> Contáctanos </a></li>
+                    </Link>
                 </ul>   
             </section>
             <section className="footer-info-fila1-redes bloque">
