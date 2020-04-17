@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/hampi/static/css/main.41194154.chunk.css",
+    "main.js": "/hampi/static/js/main.9fcf7a65.chunk.js",
+    "main.js.map": "/hampi/static/js/main.9fcf7a65.chunk.js.map",
+    "runtime-main.js": "/hampi/static/js/runtime-main.3f3085dd.js",
+    "runtime-main.js.map": "/hampi/static/js/runtime-main.3f3085dd.js.map",
+    "static/js/2.f99eecc5.chunk.js": "/hampi/static/js/2.f99eecc5.chunk.js",
+    "static/js/2.f99eecc5.chunk.js.map": "/hampi/static/js/2.f99eecc5.chunk.js.map",
+    "index.html": "/hampi/index.html",
+    "precache-manifest.8f27573a9eebc619a10051b87a3ed712.js": "/hampi/precache-manifest.8f27573a9eebc619a10051b87a3ed712.js",
+    "service-worker.js": "/hampi/service-worker.js",
+    "static/css/main.41194154.chunk.css.map": "/hampi/static/css/main.41194154.chunk.css.map",
+    "static/js/2.f99eecc5.chunk.js.LICENSE.txt": "/hampi/static/js/2.f99eecc5.chunk.js.LICENSE.txt",
+    "static/media/LOGOhAMPI.png": "/hampi/static/media/LOGOhAMPI.cd6fe0a7.png",
+    "static/media/bata.png": "/hampi/static/media/bata.b362b0c4.png",
+    "static/media/bataSimple.png": "/hampi/static/media/bataSimple.e775735b.png",
+    "static/media/cubrecabezas.png": "/hampi/static/media/cubrecabezas.1fdb0a79.png",
+    "static/media/cubrezapatos.png": "/hampi/static/media/cubrezapatos.3ea8fb2f.png",
+    "static/media/gelVaporal.png": "/hampi/static/media/gelVaporal.f358f376.png",
+    "static/media/gelisabella.png": "/hampi/static/media/gelisabella.5c4d23c4.png",
+    "static/media/jabónSahara.png": "/hampi/static/media/jabónSahara.71459fab.png",
+    "static/media/mascarillaKN95.png": "/hampi/static/media/mascarillaKN95.d540f2f7.png",
+    "static/media/mascarillaQuirurgica.png": "/hampi/static/media/mascarillaQuirurgica.cd066d4c.png",
+    "static/media/mascarillaSimple.png": "/hampi/static/media/mascarillaSimple.dafaa624.png",
+    "static/media/modelohampi1.png": "/hampi/static/media/modelohampi1.905556c2.png",
+    "static/media/overall1.png": "/hampi/static/media/overall1.e524ab27.png",
+    "static/media/overall2.png": "/hampi/static/media/overall2.0e7b2e8e.png",
+    "static/media/overallAntifluidos.png": "/hampi/static/media/overallAntifluidos.a4e6bde4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f3085dd.js",
+    "static/js/2.f99eecc5.chunk.js",
+    "static/css/main.41194154.chunk.css",
+    "static/js/main.9fcf7a65.chunk.js"
+  ]
+}
